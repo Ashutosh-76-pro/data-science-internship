@@ -1,0 +1,52 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Company {
+  id          String         @id @default(cuid())
+  canonical   String         @unique
+  displayName String
+  aliases     CompanyAlias[]
+  entries     Compensation[]
+  createdAt   DateTime       @default(now())
+  updatedAt   DateTime       @updatedAt
+}
+
+model CompanyAlias {
+  id        String  @id @default(cuid())
+  normalized String  @unique
+  rawName    String
+  companyId String
+  company   Company @relation(fields: [companyId], references: [id], onDelete: Cascade)
+}
+
+model Compensation {
+  id           String   @id @default(cuid())
+  companyId    String
+  role         String
+  level        String
+  location     String
+  currency     String   @default("INR")
+  baseSalary   Int
+  bonus        Int      @default(0)
+  stock        Int      @default(0)
+  totalComp    Int
+  source       String
+  sourceRef    String?
+  sourceRecord String?
+  fingerprint  String   @unique
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+  company      Company  @relation(fields: [companyId], references: [id], onDelete: Restrict)
+
+  @@index([companyId])
+  @@index([role])
+  @@index([level])
+  @@index([location])
+  @@index([totalComp])
+}
