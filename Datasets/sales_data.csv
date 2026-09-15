@@ -1,0 +1,42 @@
+transaction_id,order_date,region,segment,category,product,units,unit_price,unit_cost,discount,returned
+T001,2026-01-03,North,Consumer,Electronics,Wireless Mouse,3,800,500,0.05,No
+T002,2026-01-05,West,Corporate,Furniture,Office Chair,2,6500,4200,0.10,No
+T003,2026-01-01,South,Consumer,Office Supplies,Notebook,10,120,60,0,No
+T004,2026-01-08,East,Small Business,Electronics,Keyboard,4,1200,700,0.05,No
+T005,2026-01-10,North,Corporate,Electronics,Monitor,2,12000,8500,0.08,No
+T006,2026-01-12,West,Consumer,Furniture,Desk,1,9000,6100,0.12,Yes
+T007,2026-01-14,South,Corporate,Electronics,Headset,5,1800,1000,0.05,No
+T008,2026-01-18,East,Consumer,Office Supplies,Planner,6,450,220,0.10,No
+T009,2026-01-20,North,Small Business,Furniture,Bookshelf,2,5200,3300,0.05,No
+T010,2026-01-22,West,Corporate,Electronics,Webcam,3,3200,1900,0.15,No
+T011,2026-02-02,South,Consumer,Electronics,Wireless Mouse,8,800,500,,No
+T012,2026-02-04,East,Corporate,Furniture,Office Chair,4,6500,4200,0.08,No
+T013,2026-02-06,North,Consumer,Office Supplies,Notebook,20,120,60,0,No
+T014,2026-02-10,West,Small Business,Electronics,Keyboard,5,1200,700,0.05,No
+T015,2026-02-12,South,Corporate,Electronics,Monitor,3,12000,8500,0.10,No
+T016,2026-02-15,East,Consumer,Furniture,Desk,2,9000,6100,0.12,No
+T017,2026-02-17,North,Corporate,Electronics,Headset,7,1800,1000,0.05,No
+T018,2026-02-19,West,Consumer,Office Supplies,Planner,10,450,220,0.10,No
+T019,2026-02-22,South,Small Business,Furniture,Bookshelf,3,5200,3300,0.05,No
+T020,2026-02-24,East,Corporate,Electronics,Webcam,5,3200,1900,0.15,Yes
+T020,2026-02-24,East,Corporate,Electronics,Webcam,5,3200,1900,0.15,Yes
+T021,2026-03-02,North,Consumer,Electronics,Wireless Mouse,12,800,500,0.05,No
+T022,2026-03-05,West,Corporate,Furniture,Office Chair,3,6500,4200,0.10,No
+T023,2026-03-07,South,Consumer,Office Supplies,Notebook,15,120,60,0,No
+T024,2026-03-10,East,Small Business,Electronics,Keyboard,8,1200,700,0.05,No
+T025,2026-03-12,North,Corporate,Electronics,Monitor,4,12000,8500,0.08,No
+T026,2026-03-15,West,Consumer,Furniture,Desk,1,9000,6100,0.12,Yes
+T027,2026-03-18,South,Corporate,Electronics,Headset,9,1800,1000,0.05,No
+T028,2026-03-20,East,Consumer,Office Supplies,Planner,12,450,220,0.10,No
+T029,2026-03-23,North,Small Business,Furniture,Bookshelf,4,5200,3300,0.05,No
+T030,2026-03-25,West,Corporate,Electronics,Webcam,7,3200,1900,0.15,No
+T031,2026-04-02,South,Consumer,Electronics,Wireless Mouse,10,800,500,0.05,No
+T032,2026-04-05,East,Corporate,Furniture,Office Chair,3,6500,4200,0.08,No
+T033,2026-04-08,North,Consumer,Office Supplies,Notebook,25,120,60,0,No
+T034,2026-04-11,West,Small Business,Electronics,Keyboard,6,1200,700,0.05,No
+T035,2026-04-14,South,Corporate,Electronics,Monitor,2,12000,8500,0.10,No
+T036,2026-04-17,East,Consumer,Furniture,Desk,2,9000,6100,0.12,No
+T037,2026-04-20,North,Corporate,Electronics,Headset,10,1800,1000,0.05,No
+T038,2026-04-22,West,Consumer,Office Supplies,Planner,14,450,220,0.10,No
+T039,2026-04-24,South,Small Business,Furniture,Bookshelf,2,5200,3300,0.05,No
+T040,2026-04-27,East,Corporate,Electronics,Webcam,6,3200,1900,0.15,No
