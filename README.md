@@ -2,44 +2,47 @@
 
 This repository contains my internship learning work, project planning, implementation exercises, and supporting technical documentation.
 
-## Data Analyst Prerequisite — 14 Days
+## Data Analyst Prerequisite — Submission Package
 
-A complete self-paced Data Analyst preparation module has been added here:
+The Data Analyst prerequisite work is organized into four submission sections:
+
+```text
+Data Analyst Submission/
+├── Source Codes/
+│   ├── eda_and_cleaning.py
+│   ├── SQL_PRACTICE.sql
+│   └── dax_measures.md
+├── Datasets/
+│   └── sales_data.csv
+├── Documentation/
+│   ├── PROJECT_REPORT.md
+│   ├── DATA_DICTIONARY.md
+│   ├── 14_DAY_LEARNING_LOG.md
+│   └── ASSESSMENT_READINESS.md
+└── PPT / Slides/
+    ├── DATA_ANALYST_PREREQUISITE_PRESENTATION.md
+    └── DATA_ANALYST_PREREQUISITE_PRESENTATION.pptx
+```
+
+### Skills covered
+
+- Data Analytics fundamentals and analytical thinking
+- KPIs, metrics, dimensions and measures
+- Excel formulas, PivotTables and visualization
+- SQL fundamentals, aggregations, CTEs and window functions
+- Python, Pandas, statistics and EDA
+- Data cleaning, missing values, duplicates and outliers
+- Power BI dashboard design and DAX
+- Business storytelling and recommendations
+- Prerequisite assessment and project-readiness practice
+
+## Existing Data Analyst module
+
+A detailed self-paced 14-day module remains available here:
 
 **[`data-analyst-prerequisite/`](./data-analyst-prerequisite/)**
 
-It covers the required progression from **Self-Learning → Practice → Prerequisite Assessment → Project Readiness** across:
-
-- Data Analytics fundamentals and business thinking
-- KPIs, metrics, dimensions, and analytical problem-solving
-- Excel formulas, PivotTables, cleaning, and visualisation
-- SQL fundamentals, joins, aggregations, CTEs, and window functions
-- Python, Pandas, statistics, and EDA
-- Missing values, duplicates, outliers, and data-quality checks
-- Power BI dashboard design and DAX measures
-- Data storytelling and business recommendations
-- A synthetic retail-sales dataset for hands-on practice
-- A 120-minute mock prerequisite assessment
-
-### Data Analyst module structure
-
-```text
-data-analyst-prerequisite/
-├── README.md
-├── 14_DAY_PLAN.md
-├── data/
-│   └── sales_data.csv
-├── excel/
-│   └── EXCEL_PRACTICE.md
-├── sql/
-│   └── SQL_PRACTICE.sql
-├── python/
-│   └── eda_and_cleaning.py
-├── powerbi/
-│   └── DAX_AND_DASHBOARD.md
-└── assessment/
-    └── PREREQUISITE_ASSESSMENT.md
-```
+It contains the original learning plan, practice files, synthetic retail dataset, Python EDA workflow, SQL practice, Power BI/DAX guidance and mock assessment.
 
 ## Existing internship work
 
