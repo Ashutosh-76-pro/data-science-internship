@@ -1,12 +1,53 @@
 # Data Science Internship
 
-## Week 1 — Data Science Project Planning & Strategy Design
+This repository contains my internship learning work, project planning, implementation exercises, and supporting technical documentation.
+
+## Data Analyst Prerequisite — 14 Days
+
+A complete self-paced Data Analyst preparation module has been added here:
+
+**[`data-analyst-prerequisite/`](./data-analyst-prerequisite/)**
+
+It covers the required progression from **Self-Learning → Practice → Prerequisite Assessment → Project Readiness** across:
+
+- Data Analytics fundamentals and business thinking
+- KPIs, metrics, dimensions, and analytical problem-solving
+- Excel formulas, PivotTables, cleaning, and visualisation
+- SQL fundamentals, joins, aggregations, CTEs, and window functions
+- Python, Pandas, statistics, and EDA
+- Missing values, duplicates, outliers, and data-quality checks
+- Power BI dashboard design and DAX measures
+- Data storytelling and business recommendations
+- A synthetic retail-sales dataset for hands-on practice
+- A 120-minute mock prerequisite assessment
+
+### Data Analyst module structure
+
+```text
+data-analyst-prerequisite/
+├── README.md
+├── 14_DAY_PLAN.md
+├── data/
+│   └── sales_data.csv
+├── excel/
+│   └── EXCEL_PRACTICE.md
+├── sql/
+│   └── SQL_PRACTICE.sql
+├── python/
+│   └── eda_and_cleaning.py
+├── powerbi/
+│   └── DAX_AND_DASHBOARD.md
+└── assessment/
+    └── PREREQUISITE_ASSESSMENT.md
+```
+
+## Existing internship work
+
+### Week 1 — Data Science Project Planning & Strategy Design
 
 ### Hypothetical Project: Customer Churn Prediction
 
-This repository contains the Week 1 planning and supporting implementation for a Python-based data science project focused on customer churn prediction.
-
-The official Week 1 task is a **planning and strategy exercise** and does not require a dataset or actual code execution. The repository therefore documents the planned end-to-end workflow and includes a small synthetic-data starter script to demonstrate how the plan could later be implemented without using private or proprietary data.
+The official Week 1 task is a planning and strategy exercise and the repository also includes optional synthetic-data implementation support.
 
 ### Planned workflow
 1. Business problem definition
@@ -27,29 +68,14 @@ The official Week 1 task is a **planning and strategy exercise** and does not re
 - scikit-learn
 - Jupyter Notebook
 
-### Coding status
-**Official Week 1 requirement: No actual coding/execution is required.**
+### Run the existing optional demo
 
-The included starter code is optional supporting material. It uses synthetic data only and does not represent real customer or business performance.
-
-### Project structure
-```text
-data-science-internship/
-├── README.md
-├── requirements.txt
-├── Week-1-Project-Planning/
-│   └── README.md
-└── src/
-    └── churn_pipeline.py
-```
-
-### Run the optional demo
 ```bash
 python -m venv .venv
 # Windows
-.venv\\Scripts\\activate
+.venv\Scripts\activate
 pip install -r requirements.txt
 python src/churn_pipeline.py
 ```
 
-This project is intended for educational/internship planning purposes only.
+This repository is intended for educational and internship portfolio purposes. Synthetic datasets should not be represented as real company performance or confidential business data.
