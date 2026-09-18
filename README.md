@@ -21,7 +21,7 @@ Data Analyst Submission/
 │   └── ASSESSMENT_READINESS.md
 └── PPT / Slides/
     ├── DATA_ANALYST_PREREQUISITE_PRESENTATION.md
-    └── DATA_ANALYST_PREREQUISITE_PRESENTATION.pptx
+    └── FINAL_DATA_ANALYST_PREREQUISITE_SLIDES.md
 ```
 
 ### Skills covered
