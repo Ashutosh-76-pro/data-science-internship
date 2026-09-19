@@ -1,0 +1,66 @@
+version: 1
+threshold_semantics:
+  min: ">="
+  max: "<="
+  gt: ">"
+  lt: "<"
+  eq: "="
+presets:
+  quality_compounder:
+    roe_pct: {op: gt, value: 15}
+    debt_to_equity: {op: lt, value: 1.0}
+    fcf_cr: {op: gt, value: 0}
+    revenue_cagr_5y_pct: {op: gt, value: 10}
+  value_pick:
+    pe: {op: lt, value: 20}
+    pb: {op: lt, value: 3.0}
+    debt_to_equity: {op: lt, value: 2.0}
+    dividend_yield_pct: {op: gt, value: 1}
+  growth_accelerator:
+    pat_cagr_5y_pct: {op: gt, value: 20}
+    revenue_cagr_5y_pct: {op: gt, value: 15}
+    debt_to_equity: {op: lt, value: 2.0}
+  dividend_champion:
+    dividend_yield_pct: {op: gt, value: 2}
+    dividend_payout_pct: {op: lt, value: 80}
+    fcf_cr: {op: gt, value: 0}
+  debt_free_bluechip:
+    debt_to_equity: {op: eq, value: 0}
+    roe_pct: {op: gt, value: 12}
+    sales_cr: {op: gt, value: 5000}
+  turnaround_watch:
+    revenue_cagr_3y_pct: {op: gt, value: 10}
+    fcf_cr: {op: gt, value: 0}
+    de_yoy_change: {op: lt, value: 0}
+custom_filters:
+  supported_metrics:
+    - roe_pct
+    - debt_to_equity
+    - fcf_cr
+    - revenue_cagr_5y_pct
+    - pat_cagr_5y_pct
+    - opm_pct
+    - pe
+    - pb
+    - dividend_yield_pct
+    - interest_coverage
+    - market_cap_cr
+    - net_profit_cr
+    - eps_cagr_5y_pct
+    - asset_turnover
+    - sales_cr
+weights:
+  profitability:
+    roe_pct: 0.15
+    roce_pct: 0.10
+    npm_pct: 0.10
+  cash_quality:
+    fcf_cagr_5y_pct: 0.15
+    cfo_pat_ratio: 0.10
+    fcf_positive: 0.05
+  growth:
+    revenue_cagr_5y_pct: 0.10
+    pat_cagr_5y_pct: 0.10
+  leverage:
+    debt_to_equity: 0.10
+    interest_coverage: 0.05
