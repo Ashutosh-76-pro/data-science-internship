@@ -1,0 +1,38 @@
+name: Sprint 3 — Screener & Peer Comparison Engine
+
+on:
+  push:
+    branches: [sprint-3-screener-peer-engine]
+  workflow_dispatch:
+
+jobs:
+  validate-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Sprint 3 dependencies
+        run: python -m pip install --upgrade pip && pip install -r requirements-sprint3.txt
+
+      - name: Generate Sprint 3 outputs
+        run: PYTHONPATH=. python -m src.main
+
+      - name: Run 14 DQ tests
+        run: PYTHONPATH=. pytest -q tests/test_sprint3.py
+
+      - name: Upload Sprint 3 deliverables
+        uses: actions/upload-artifact@v4
+        with:
+          name: sprint3-deliverables
+          path: |
+            output/screener_output.xlsx
+            output/peer_comparison.xlsx
+            output/screener.sqlite
+            reports/radar_charts/*.png
+          if-no-files-found: error

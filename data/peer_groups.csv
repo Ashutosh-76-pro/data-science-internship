@@ -1,0 +1,93 @@
+company_id,peer_group_name,benchmark_company,year
+TCS,IT Services,True,2024
+INFY,IT Services,False,2024
+HCLTECH,IT Services,False,2024
+TECHM,IT Services,False,2024
+LTIM,IT Services,False,2024
+NAUKRI,IT Services,False,2024
+HDFCBANK,Private Banks,True,2024
+ICICIBANK,Private Banks,False,2024
+AXISBANK,Private Banks,False,2024
+KOTAKBANK,Private Banks,False,2024
+INDUSINDBK,Private Banks,False,2024
+BANKBARODA,PSU Banks & Financials,False,2024
+CANBK,PSU Banks & Financials,False,2024
+PNB,PSU Banks & Financials,False,2024
+UNIONBANK,PSU Banks & Financials,False,2024
+LICI,PSU Banks & Financials,False,2024
+IRFC,PSU Banks & Financials,False,2024
+PFC,PSU Banks & Financials,True,2024
+RECLTD,PSU Banks & Financials,False,2024
+JIOFIN,PSU Banks & Financials,False,2024
+BAJFINANCE,NBFCs & Insurers,True,2024
+BAJAJFINSV,NBFCs & Insurers,False,2024
+BAJAJHLDNG,NBFCs & Insurers,False,2024
+CHOLAFIN,NBFCs & Insurers,False,2024
+SHRIRAMFIN,NBFCs & Insurers,False,2024
+HDFCLIFE,NBFCs & Insurers,False,2024
+SBILIFE,NBFCs & Insurers,False,2024
+ICICIGI,NBFCs & Insurers,False,2024
+ICICIPRULI,NBFCs & Insurers,False,2024
+HINDUNILVR,FMCG & Consumer Staples,True,2024
+ITC,FMCG & Consumer Staples,False,2024
+NESTLEIND,FMCG & Consumer Staples,False,2024
+BRITANNIA,FMCG & Consumer Staples,False,2024
+DABUR,FMCG & Consumer Staples,False,2024
+GODREJCP,FMCG & Consumer Staples,False,2024
+TATACONSUM,FMCG & Consumer Staples,False,2024
+MARUTI,Auto & Mobility,True,2024
+M&M,Auto & Mobility,False,2024
+TATAMOTORS,Auto & Mobility,False,2024
+EICHERMOT,Auto & Mobility,False,2024
+HEROMOTOCO,Auto & Mobility,False,2024
+TVSMOTOR,Auto & Mobility,False,2024
+MOTHERSON,Auto & Mobility,False,2024
+BOSCHLTD,Auto & Mobility,False,2024
+BAJAJ-AUTO,Auto & Mobility,False,2024
+INDIGO,Auto & Mobility,False,2024
+SUNPHARMA,Pharma & Healthcare,True,2024
+DRREDDY,Pharma & Healthcare,False,2024
+CIPLA,Pharma & Healthcare,False,2024
+DIVISLAB,Pharma & Healthcare,False,2024
+TORNTPHARM,Pharma & Healthcare,False,2024
+APOLLOHOSP,Pharma & Healthcare,False,2024
+BEL,Industrials & Defence,False,2024
+BHEL,Industrials & Defence,False,2024
+HAL,Industrials & Defence,True,2024
+SIEMENS,Industrials & Defence,False,2024
+LT,Industrials & Defence,False,2024
+HAVELLS,Industrials & Defence,False,2024
+ABB,Industrials & Defence,False,2024
+IRCTC,Industrials & Defence,False,2024
+ADANIPORTS,Industrials & Defence,False,2024
+BHARTIARTL,Industrials & Defence,False,2024
+RELIANCE,Energy & Utilities,True,2024
+ONGC,Energy & Utilities,False,2024
+IOC,Energy & Utilities,False,2024
+BPCL,Energy & Utilities,False,2024
+GAIL,Energy & Utilities,False,2024
+COALINDIA,Energy & Utilities,False,2024
+NTPC,Energy & Utilities,False,2024
+POWERGRID,Energy & Utilities,False,2024
+NHPC,Energy & Utilities,False,2024
+TATAPOWER,Energy & Utilities,False,2024
+JSWENERGY,Energy & Utilities,False,2024
+ADANIPOWER,Energy & Utilities,False,2024
+ADANIGREEN,Energy & Utilities,False,2024
+ADANIENSOL,Energy & Utilities,False,2024
+HINDALCO,Materials & Cement,False,2024
+JSWSTEEL,Materials & Cement,False,2024
+TATASTEEL,Materials & Cement,False,2024
+JINDALSTEL,Materials & Cement,False,2024
+ULTRACEMCO,Materials & Cement,False,2024
+AMBUJACEM,Materials & Cement,False,2024
+PIDILITIND,Materials & Cement,True,2024
+GRASIM,Materials & Cement,False,2024
+SHREECEM,Materials & Cement,False,2024
+ASIANPAINT,Consumer & Real Estate,False,2024
+TITAN,Consumer & Real Estate,True,2024
+TRENT,Consumer & Real Estate,False,2024
+DMART,Consumer & Real Estate,False,2024
+DLF,Consumer & Real Estate,False,2024
+LODHA,Consumer & Real Estate,False,2024
+ADANIENT,Consumer & Real Estate,False,2024
